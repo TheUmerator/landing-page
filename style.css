@@ -97,6 +97,18 @@ ul {
 
 .sign-up-button {
     background-color: #3882f6;
+    color: white;
+
+    margin: 0px;
+    padding: 10px;
+    padding-left: 25px;
+    padding-right: 25px;
+    
+    border:none;
+    border-radius: 10px;
+    
+    font-size: 20px;
+    font-weight: bold;
 }
 
 .info-heading {
@@ -175,8 +187,8 @@ ul {
 .cta-subtext {
     font-weight:100;
 }
-.sign-up-button {
-
+.cta button {
+    border:solid white 2px;
 }
 .footer {
     display: flex;
