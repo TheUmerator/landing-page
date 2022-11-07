@@ -99,12 +99,25 @@ ul {
 
 .block-box {
     display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+
+    margin-bottom: 50px;
 }
 
-.img-block {
-
+.img-box {
+    text-align: center;
 }
 
+.img-box div {
+    max-width: 200px;
+}
+.sq-img {
+    width: auto;
+    height: 200px;
+
+}
 
 
 
