@@ -11,6 +11,7 @@ body {
 
 
 }
+
 /*
 .site-container {
     width: 1500px;
@@ -100,13 +101,13 @@ ul {
     color: white;
 
     margin: 0px;
-    padding: 10px;
+    padding: 5px;
     padding-left: 25px;
     padding-right: 25px;
-    
-    border:none;
+
+    border: none;
     border-radius: 10px;
-    
+
     font-size: 20px;
     font-weight: bold;
 }
@@ -135,6 +136,7 @@ ul {
 .img-box div {
     max-width: 200px;
 }
+
 .sq-img {
     width: auto;
     height: 200px;
@@ -144,32 +146,33 @@ ul {
 .quote-box {
     padding-top: 50px;
     padding-bottom: 50px;
-   
+
     max-width: 800px;
-    font-size:36px;
+    font-size: 36px;
     font-style: italic;
-    font-weight:100;
-    color: #1f2937; 
+    font-weight: 100;
+    color: #1f2937;
 
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
 }
+
 .quote {
     max-width: 800px;
-    
+
 }
 
 .author {
     font-weight: bold;
-    align-self:flex-end ;
+    align-self: flex-end;
 
 }
 
 .cta {
     background-color: #3882f6;
-    width: 700px;
+    width: 800px;
     height: 100px;
     border-radius: 16px;
     padding: 10px;
@@ -180,17 +183,25 @@ ul {
 
     margin-top: 50px;
     margin-bottom: 50px;
+
+    padding-left: 20px;
+    padding-right: 20px;
     display: flex;
     justify-content: space-around;
     align-items: center;
 }
+
 .cta-subtext {
-    font-weight:100;
+    font-weight: 100;
 }
+
 .cta button {
-    border:solid white 2px;
+    border: solid white 2px;
 }
+
 .footer {
+    background-color: #1f2937;
+    color: #E5E7eb;
     display: flex;
     justify-content: center;
     align-items: center;
