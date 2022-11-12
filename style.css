@@ -5,14 +5,21 @@ body {
     /*To make the site fill the whole space*/
     min-height: 100vh;
 
-/*
+
     display: flex;
     flex-direction: column;
-*/
+
 
 }
+
+
 .s1 {
     background-color: #1f2937;
+    
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
 }
 
 
@@ -28,21 +35,16 @@ body {
     align-items: center;
 }
 
-.s1, .s2, .s3, .s4 {
-    width: 1585px;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-}
-.cBox{
-    
-}
 .header {
     display: flex;
     justify-content: space-between;
     align-items: center;
 
     padding: 10px;
+
+    align-self: center;
+    width: 970px;
+
     margin-bottom: 50px;
 }
 
@@ -205,6 +207,4 @@ ul {
     display: flex;
     justify-content: center;
     align-items: center;
-
-    padding: 30px;
 }
